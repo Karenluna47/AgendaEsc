@@ -1,0 +1,38 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_height="wrap_content"
+                                                   android:layout_width="wrap_content"
+                                                   android:id="@+id/itemMat" android:background="#1CA885">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="410dp"
+            android:layout_height="105dp" android:id="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+    >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="324dp"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Jose"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp" android:id="@+id/NombreMaestro"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" android:background="#1CA885"/>
+            <TextView
+                    android:text="Geografia"
+                    android:layout_width="336dp"
+                    android:layout_height="41dp"
+                    android:id="@+id/NombreMateria"
+                    android:layout_marginEnd="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:typeface="normal"
+                    android:textColor="#000000" android:background="#1CA885"/>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="4dp"
+                android:layout_height="match_parent" app:srcCompat="@mipmap/ic_launcher_foreground"
+                android:id="@+id/imageView2" android:layout_weight="1"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

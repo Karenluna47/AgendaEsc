@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Agenda Escolar</string>
+    <string name="page_title">Menú</string>
+    <string name="ver_maestro">Ver Maestro</string>
+</resources>
